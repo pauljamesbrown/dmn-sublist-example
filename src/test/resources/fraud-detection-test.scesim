@@ -3,7 +3,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Index</name>
             <type>OTHER</type>
@@ -15,9 +15,10 @@
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Description</name>
             <type>OTHER</type>
@@ -29,120 +30,10 @@
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>answers</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|1</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>answers</name>
-            <className>answers</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>answers</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>person</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>clearance_level</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|2</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>person</name>
-            <className>person</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>person</factAlias>
-          <expressionAlias>clearance_level</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>person</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>customer_since</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|3</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>person</name>
-            <className>person</className>
-          </factIdentifier>
-          <className>time</className>
-          <factAlias>person</factAlias>
-          <expressionAlias>customer_since</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>person</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>person_id</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|4</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>person</name>
-            <className>person</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>person</factAlias>
-          <expressionAlias>person_id</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>previous_transactions</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|5</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>previous_transactions</name>
-            <className>previous_transactions</className>
-          </factIdentifier>
-          <className>java.util.List</className>
-          <factAlias>previous_transactions</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes class="singleton-list">
-            <string>transactions</string>
-          </genericTypes>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>requested-action</step>
             </ExpressionElement>
@@ -160,9 +51,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>245.1583834610012</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>risk-category.requested-action</step>
             </ExpressionElement>
@@ -180,78 +72,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>342.72141361384865</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>transaction</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>location</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|8</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>transaction</name>
-            <className>transaction</className>
-          </factIdentifier>
-          <className>location</className>
-          <factAlias>transaction</factAlias>
-          <expressionAlias>location</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>transaction</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>transaction_amount</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|9</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>transaction</name>
-            <className>transaction</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>transaction</factAlias>
-          <expressionAlias>transaction_amount</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>transaction</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>transaction_date</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|10</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>transaction</name>
-            <className>transaction</className>
-          </factIdentifier>
-          <className>date and time</className>
-          <factAlias>transaction</factAlias>
-          <expressionAlias>transaction_date</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Action-Risk-Rating</step>
             </ExpressionElement>
@@ -269,9 +93,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>142.5921209926231</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>risk-category.determineAction</step>
             </ExpressionElement>
@@ -289,56 +114,11 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>risk-category.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>action</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|13</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="risk-category">
-            <name>risk-category.risk-category</name>
-            <className>risk-category.risk-category</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>risk-category.risk-category</factAlias>
-          <expressionAlias>action</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>risk-category.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>riskLevel</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|14</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="risk-category">
-            <name>risk-category.risk-category</name>
-            <className>risk-category.risk-category</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>risk-category.risk-category</factAlias>
-          <expressionAlias>riskLevel</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>220.52808193252713</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <Scenario>
         <factMappingValues>
           <FactMappingValue>
@@ -353,56 +133,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>answers</name>
-              <className>answers</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>person</name>
-              <className>person</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>person</name>
-              <className>person</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>person</name>
-              <className>person</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>previous_transactions</name>
-              <className>previous_transactions</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>requested-action</name>
               <className>requested-action</className>
             </factIdentifier>
@@ -410,6 +140,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;new-card-request&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier importPrefix="risk-category">
@@ -420,36 +151,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>transaction</name>
-              <className>transaction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>transaction</name>
-              <className>transaction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>transaction</name>
-              <className>transaction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
+            <rawValue class="string">&quot;new-card-request&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -470,26 +172,18 @@
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
-            <factIdentifier importPrefix="risk-category">
-              <name>risk-category.risk-category</name>
-              <className>risk-category.risk-category</className>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
+              <name>Index</name>
+              <type>OTHER</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="risk-category">
-              <name>risk-category.risk-category</name>
-              <className>risk-category.risk-category</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|14</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -499,7 +193,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>1|1</name>
             <type>GIVEN</type>
@@ -512,10 +206,11 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <BackgroundData>
         <factMappingValues>
           <FactMappingValue>
