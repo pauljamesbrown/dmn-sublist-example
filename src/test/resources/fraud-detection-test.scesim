@@ -51,7 +51,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>401.2615384615385</columnWidth>
+          <columnWidth>532.8035019455255</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -72,55 +72,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>188.24615384615382</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>risk-category.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>action</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|11</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="risk-category">
-            <name>risk-category.risk-category</name>
-            <className>risk-category.risk-category</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>risk-category.risk-category</factAlias>
-          <expressionAlias>action</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>188.24615384615382</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>risk-category.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>riskLevel</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|12</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="risk-category">
-            <name>risk-category.risk-category</name>
-            <className>risk-category.risk-category</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>risk-category.risk-category</factAlias>
-          <expressionAlias>riskLevel</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>188.24615384615382</columnWidth>
+          <columnWidth>433.1964980544745</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -157,29 +109,7 @@
               <name>1|10</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="risk-category">
-              <name>risk-category.risk-category</name>
-              <className>risk-category.risk-category</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="risk-category">
-              <name>risk-category.risk-category</name>
-              <className>risk-category.risk-category</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
