@@ -35,21 +35,20 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>verification-action</step>
+              <step>requested-action</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|1</name>
+            <name>1626278546638</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>verification-action</name>
-            <className>verification-action</className>
+            <name>requested-action</name>
+            <className>requested-action</className>
           </factIdentifier>
-          <className>Any</className>
-          <factAlias>verification-action</factAlias>
+          <className>string</className>
+          <factAlias>requested-action</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>483.0</columnWidth>
         </FactMapping>
@@ -91,37 +90,37 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
+              <name>determineAction</name>
+              <className>determineAction</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
+              <name>1|2</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;new-card-request&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>determineAction</name>
-              <className>determineAction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -138,37 +137,37 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
+              <name>determineAction</name>
+              <className>determineAction</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
+              <name>1|2</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;change-address&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>determineAction</name>
-              <className>determineAction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -182,17 +181,6 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;increase-card-limit&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -216,6 +204,17 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;increase-card-limit&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -229,17 +228,6 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;decrease-card-limit&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -263,6 +251,17 @@
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;decrease-card-limit&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -276,17 +275,6 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;activate-card&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -310,6 +298,17 @@
             </expressionIdentifier>
             <rawValue class="string">5</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;decrease-card-limit&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -323,17 +322,6 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>verification-action</name>
-              <className>verification-action</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;stop-card&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -356,6 +344,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">6</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>requested-action</name>
+              <className>requested-action</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626278546638</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;stop-card&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
