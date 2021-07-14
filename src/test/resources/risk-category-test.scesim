@@ -130,6 +130,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">{ riskLevel : 1, action : &quot;new-card-request&quot; }</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -140,7 +141,6 @@
               <name>1|3</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
