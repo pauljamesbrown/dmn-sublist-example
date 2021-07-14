@@ -54,18 +54,22 @@
           <columnWidth>483.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>actionRiskRating</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1626278373346</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
+            <name>actionRiskRating</name>
+            <className>actionRiskRating</className>
           </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 4</factAlias>
-          <expressionAlias>PROPERTY 4</expressionAlias>
+          <className>number</className>
+          <factAlias>actionRiskRating</factAlias>
+          <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>483.0</columnWidth>
         </FactMapping>
@@ -108,8 +112,8 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>actionRiskRating</name>
+              <className>actionRiskRating</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1626278373346</name>
