@@ -51,7 +51,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>483.0</columnWidth>
+          <columnWidth>506.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -60,19 +60,18 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|3</name>
+            <name>1626353589667</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
             <name>determineAction</name>
             <className>determineAction</className>
           </factIdentifier>
-          <className>Any</className>
+          <className>number</className>
           <factAlias>determineAction</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>483.0</columnWidth>
+          <columnWidth>506.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -102,23 +101,23 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>determineAction</name>
-              <className>determineAction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>Index</name>
               <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>determineAction</name>
+              <className>determineAction</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626353589667</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
