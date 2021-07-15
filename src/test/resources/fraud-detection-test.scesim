@@ -119,7 +119,7 @@
               <name>1626353887051</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
