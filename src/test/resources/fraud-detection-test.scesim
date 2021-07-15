@@ -56,21 +56,21 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>determineAction</step>
+              <step>riskLevel</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1626353589667</name>
+            <name>1626353887051</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>determineAction</name>
-            <className>determineAction</className>
+            <name>riskLevel</name>
+            <className>riskLevel</className>
           </factIdentifier>
           <className>number</className>
-          <factAlias>determineAction</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <factAlias>riskLevel</factAlias>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>506.5</columnWidth>
         </FactMapping>
       </factMappings>
@@ -112,14 +112,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>determineAction</name>
-              <className>determineAction</className>
+              <name>riskLevel</name>
+              <className>riskLevel</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1626353589667</name>
+              <name>1626353887051</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&apos;1&apos;</rawValue>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
