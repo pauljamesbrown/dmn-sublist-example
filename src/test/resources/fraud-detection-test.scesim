@@ -51,97 +51,27 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>193.20000000000002</columnWidth>
+          <columnWidth>475.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>actionRiskRating</step>
+              <step>determineAction</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|11</name>
+            <name>1626337824042</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>actionRiskRating</name>
-            <className>actionRiskRating</className>
+            <name>determineAction</name>
+            <className>determineAction</className>
           </factIdentifier>
           <className>number</className>
-          <factAlias>actionRiskRating</factAlias>
+          <factAlias>determineAction</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>193.20000000000002</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>riskCategoryDecision.determineAction</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|12</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="riskCategoryDecision">
-            <name>riskCategoryDecision.determineAction</name>
-            <className>riskCategoryDecision.determineAction</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>riskCategoryDecision.determineAction</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>193.20000000000002</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>riskCategoryDecision.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>action</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|13</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="riskCategoryDecision">
-            <name>riskCategoryDecision.risk-category</name>
-            <className>riskCategoryDecision.risk-category</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>riskCategoryDecision.risk-category</factAlias>
-          <expressionAlias>action</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>193.20000000000002</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>riskCategoryDecision.risk-category</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>riskLevel</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|14</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier importPrefix="riskCategoryDecision">
-            <name>riskCategoryDecision.risk-category</name>
-            <className>riskCategoryDecision.risk-category</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>riskCategoryDecision.risk-category</factAlias>
-          <expressionAlias>riskLevel</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>193.20000000000002</columnWidth>
+          <columnWidth>475.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -171,47 +101,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>actionRiskRating</name>
-              <className>actionRiskRating</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="riskCategoryDecision">
-              <name>riskCategoryDecision.determineAction</name>
-              <className>riskCategoryDecision.determineAction</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="riskCategoryDecision">
-              <name>riskCategoryDecision.risk-category</name>
-              <className>riskCategoryDecision.risk-category</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier importPrefix="riskCategoryDecision">
-              <name>riskCategoryDecision.risk-category</name>
-              <className>riskCategoryDecision.risk-category</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|14</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -220,6 +109,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>determineAction</name>
+              <className>determineAction</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1626337824042</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">5</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
