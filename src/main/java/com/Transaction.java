@@ -6,12 +6,59 @@ package com;
 
 public class Transaction implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Transaction() {
-    }
+	@org.kie.api.definition.type.Label(value = "transactionId")
+	private java.lang.Integer transactionId;
+	@org.kie.api.definition.type.Label(value = "dateTime")
+	private java.time.LocalDateTime dateTime;
+	@org.kie.api.definition.type.Label(value = "location")
+	private java.lang.String location;
+	@org.kie.api.definition.type.Label(value = "amount")
+	private java.math.BigDecimal amount;
 
+	public Transaction() {
+	}
 
+	public java.lang.Integer getTransactionId() {
+		return this.transactionId;
+	}
 
+	public void setTransactionId(java.lang.Integer transactionId) {
+		this.transactionId = transactionId;
+	}
+
+	public java.time.LocalDateTime getDateTime() {
+		return this.dateTime;
+	}
+
+	public void setDateTime(java.time.LocalDateTime dateTime) {
+		this.dateTime = dateTime;
+	}
+
+	public java.lang.String getLocation() {
+		return this.location;
+	}
+
+	public void setLocation(java.lang.String location) {
+		this.location = location;
+	}
+
+	public java.math.BigDecimal getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.math.BigDecimal amount) {
+		this.amount = amount;
+	}
+
+	public Transaction(java.lang.Integer transactionId,
+			java.time.LocalDateTime dateTime, java.lang.String location,
+			java.math.BigDecimal amount) {
+		this.transactionId = transactionId;
+		this.dateTime = dateTime;
+		this.location = location;
+		this.amount = amount;
+	}
 
 }
