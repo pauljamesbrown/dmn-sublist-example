@@ -6,12 +6,23 @@ package com.myspace.fraud_detection_example;
 
 public class BasicDataObject implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public BasicDataObject() {
-    }
+	private java.lang.String transactionId;
 
+	public BasicDataObject() {
+	}
 
+	public java.lang.String getTransactionId() {
+		return this.transactionId;
+	}
 
+	public void setTransactionId(java.lang.String transactionId) {
+		this.transactionId = transactionId;
+	}
+
+	public BasicDataObject(java.lang.String transactionId) {
+		this.transactionId = transactionId;
+	}
 
 }
