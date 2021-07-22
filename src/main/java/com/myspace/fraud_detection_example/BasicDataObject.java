@@ -12,6 +12,8 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.lang.String fieldtwo;
 
+	private java.lang.String dateField;
+
 	public BasicDataObject() {
 	}
 
@@ -31,10 +33,19 @@ public class BasicDataObject implements java.io.Serializable {
 		this.fieldtwo = fieldtwo;
 	}
 
+	public java.lang.String getDateField() {
+		return this.dateField;
+	}
+
+	public void setDateField(java.lang.String dateField) {
+		this.dateField = dateField;
+	}
+
 	public BasicDataObject(java.lang.String transactionId,
-			java.lang.String fieldtwo) {
+			java.lang.String fieldtwo, java.lang.String dateField) {
 		this.transactionId = transactionId;
 		this.fieldtwo = fieldtwo;
+		this.dateField = dateField;
 	}
 
 }
