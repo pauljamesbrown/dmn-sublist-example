@@ -16,6 +16,8 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.util.Date fieldthree;
 
+	private java.time.LocalDateTime fieldfour;
+
 	public BasicDataObject() {
 	}
 
@@ -51,13 +53,22 @@ public class BasicDataObject implements java.io.Serializable {
 		this.fieldthree = fieldthree;
 	}
 
+	public java.time.LocalDateTime getFieldfour() {
+		return this.fieldfour;
+	}
+
+	public void setFieldfour(java.time.LocalDateTime fieldfour) {
+		this.fieldfour = fieldfour;
+	}
+
 	public BasicDataObject(java.lang.String transactionId,
 			java.lang.String fieldtwo, java.lang.String dateField,
-			java.util.Date fieldthree) {
+			java.util.Date fieldthree, java.time.LocalDateTime fieldfour) {
 		this.transactionId = transactionId;
 		this.fieldtwo = fieldtwo;
 		this.dateField = dateField;
 		this.fieldthree = fieldthree;
+		this.fieldfour = fieldfour;
 	}
 
 }
