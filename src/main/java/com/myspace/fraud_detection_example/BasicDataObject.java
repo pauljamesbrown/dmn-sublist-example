@@ -10,8 +10,6 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.lang.String transactionId;
 
-	private java.lang.String date;
-
 	public BasicDataObject() {
 	}
 
@@ -23,17 +21,8 @@ public class BasicDataObject implements java.io.Serializable {
 		this.transactionId = transactionId;
 	}
 
-	public java.lang.String getDate() {
-		return this.date;
-	}
-
-	public void setDate(java.lang.String date) {
-		this.date = date;
-	}
-
-	public BasicDataObject(java.lang.String transactionId, java.lang.String date) {
+	public BasicDataObject(java.lang.String transactionId) {
 		this.transactionId = transactionId;
-		this.date = date;
 	}
 
 }
