@@ -22,7 +22,7 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.util.Date newdate;
 
-	private java.util.Date date;
+	private java.util.Date ldate;
 
 	public BasicDataObject() {
 	}
@@ -83,19 +83,19 @@ public class BasicDataObject implements java.io.Serializable {
 		this.newdate = newdate;
 	}
 
-	public java.util.Date getDate() {
-		return this.date;
+	public java.util.Date getLdate() {
+		return this.ldate;
 	}
 
-	public void setDate(java.util.Date date) {
-		this.date = date;
+	public void setLdate(java.util.Date ldate) {
+		this.ldate = ldate;
 	}
 
 	public BasicDataObject(java.lang.String transactionId,
 			java.lang.String fieldtwo, java.lang.String dateField,
 			java.util.Date fieldthree, java.time.LocalDateTime fieldfour,
 			java.lang.Integer amount, java.util.Date newdate,
-			java.util.Date date) {
+			java.util.Date ldate) {
 		this.transactionId = transactionId;
 		this.fieldtwo = fieldtwo;
 		this.dateField = dateField;
@@ -103,7 +103,7 @@ public class BasicDataObject implements java.io.Serializable {
 		this.fieldfour = fieldfour;
 		this.amount = amount;
 		this.newdate = newdate;
-		this.date = date;
+		this.ldate = ldate;
 	}
 
 }
