@@ -20,7 +20,7 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.lang.Integer amount;
 
-	private java.util.Date newda;
+	private java.util.Date newdate;
 
 	public BasicDataObject() {
 	}
@@ -73,25 +73,25 @@ public class BasicDataObject implements java.io.Serializable {
 		this.amount = amount;
 	}
 
-	public java.util.Date getNewda() {
-		return this.newda;
+	public java.util.Date getNewdate() {
+		return this.newdate;
 	}
 
-	public void setNewda(java.util.Date newda) {
-		this.newda = newda;
+	public void setNewdate(java.util.Date newdate) {
+		this.newdate = newdate;
 	}
 
 	public BasicDataObject(java.lang.String transactionId,
 			java.lang.String fieldtwo, java.lang.String dateField,
 			java.util.Date fieldthree, java.time.LocalDateTime fieldfour,
-			java.lang.Integer amount, java.util.Date newda) {
+			java.lang.Integer amount, java.util.Date newdate) {
 		this.transactionId = transactionId;
 		this.fieldtwo = fieldtwo;
 		this.dateField = dateField;
 		this.fieldthree = fieldthree;
 		this.fieldfour = fieldfour;
 		this.amount = amount;
-		this.newda = newda;
+		this.newdate = newdate;
 	}
 
 }
