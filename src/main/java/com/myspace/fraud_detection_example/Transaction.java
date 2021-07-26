@@ -12,13 +12,14 @@ public class Transaction implements java.io.Serializable {
 
 	@org.kie.api.definition.type.Label("transactionId")
 	private java.lang.Integer transactionId;
-	@org.kie.api.definition.type.Label("location")
-	private java.lang.String location;
 	@org.kie.api.definition.type.Label("transactionAmount")
 	private java.math.BigDecimal transactionAmount;
 
-	@org.kie.api.definition.type.Label(value = "transactionDateTime")
+	@org.kie.api.definition.type.Label("transactionDateTime")
 	private java.util.Date transactionDateTime;
+
+	@org.kie.api.definition.type.Label(value = "transactionLocation")
+	private java.lang.String transactionLocation;
 
 	public Transaction() {
 	}
@@ -29,14 +30,6 @@ public class Transaction implements java.io.Serializable {
 
 	public void setTransactionId(java.lang.Integer transactionId) {
 		this.transactionId = transactionId;
-	}
-
-	public java.lang.String getLocation() {
-		return this.location;
-	}
-
-	public void setLocation(java.lang.String location) {
-		this.location = location;
 	}
 
 	public java.math.BigDecimal getTransactionAmount() {
@@ -55,13 +48,22 @@ public class Transaction implements java.io.Serializable {
 		this.transactionDateTime = transactionDateTime;
 	}
 
+	public java.lang.String getTransactionLocation() {
+		return this.transactionLocation;
+	}
+
+	public void setTransactionLocation(java.lang.String transactionLocation) {
+		this.transactionLocation = transactionLocation;
+	}
+
 	public Transaction(java.lang.Integer transactionId,
-			java.lang.String location, java.math.BigDecimal transactionAmount,
-			java.util.Date transactionDateTime) {
+			java.math.BigDecimal transactionAmount,
+			java.util.Date transactionDateTime,
+			java.lang.String transactionLocation) {
 		this.transactionId = transactionId;
-		this.location = location;
 		this.transactionAmount = transactionAmount;
 		this.transactionDateTime = transactionDateTime;
+		this.transactionLocation = transactionLocation;
 	}
 
 }
