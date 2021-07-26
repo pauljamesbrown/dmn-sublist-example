@@ -10,19 +10,11 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.lang.String transactionId;
 
-	private java.lang.String fieldtwo;
-
-	private java.util.Date fieldthree;
-
-	private java.time.LocalDateTime fieldfour;
-
-	private java.lang.Integer amount;
-
-	private java.util.Date newdate;
-
-	private java.util.Date ldate;
-
 	private java.time.LocalDateTime transactionDateTime;
+
+	private java.math.BigDecimal transactionAmount;
+
+	private java.lang.String transactionLocation;
 
 	public BasicDataObject() {
 	}
@@ -35,54 +27,6 @@ public class BasicDataObject implements java.io.Serializable {
 		this.transactionId = transactionId;
 	}
 
-	public java.lang.String getFieldtwo() {
-		return this.fieldtwo;
-	}
-
-	public void setFieldtwo(java.lang.String fieldtwo) {
-		this.fieldtwo = fieldtwo;
-	}
-
-	public java.util.Date getFieldthree() {
-		return this.fieldthree;
-	}
-
-	public void setFieldthree(java.util.Date fieldthree) {
-		this.fieldthree = fieldthree;
-	}
-
-	public java.time.LocalDateTime getFieldfour() {
-		return this.fieldfour;
-	}
-
-	public void setFieldfour(java.time.LocalDateTime fieldfour) {
-		this.fieldfour = fieldfour;
-	}
-
-	public java.lang.Integer getAmount() {
-		return this.amount;
-	}
-
-	public void setAmount(java.lang.Integer amount) {
-		this.amount = amount;
-	}
-
-	public java.util.Date getNewdate() {
-		return this.newdate;
-	}
-
-	public void setNewdate(java.util.Date newdate) {
-		this.newdate = newdate;
-	}
-
-	public java.util.Date getLdate() {
-		return this.ldate;
-	}
-
-	public void setLdate(java.util.Date ldate) {
-		this.ldate = ldate;
-	}
-
 	public java.time.LocalDateTime getTransactionDateTime() {
 		return this.transactionDateTime;
 	}
@@ -92,19 +36,30 @@ public class BasicDataObject implements java.io.Serializable {
 		this.transactionDateTime = transactionDateTime;
 	}
 
+	public java.math.BigDecimal getTransactionAmount() {
+		return this.transactionAmount;
+	}
+
+	public void setTransactionAmount(java.math.BigDecimal transactionAmount) {
+		this.transactionAmount = transactionAmount;
+	}
+
+	public java.lang.String getTransactionLocation() {
+		return this.transactionLocation;
+	}
+
+	public void setTransactionLocation(java.lang.String transactionLocation) {
+		this.transactionLocation = transactionLocation;
+	}
+
 	public BasicDataObject(java.lang.String transactionId,
-			java.lang.String fieldtwo, java.util.Date fieldthree,
-			java.time.LocalDateTime fieldfour, java.lang.Integer amount,
-			java.util.Date newdate, java.util.Date ldate,
-			java.time.LocalDateTime transactionDateTime) {
+			java.time.LocalDateTime transactionDateTime,
+			java.math.BigDecimal transactionAmount,
+			java.lang.String transactionLocation) {
 		this.transactionId = transactionId;
-		this.fieldtwo = fieldtwo;
-		this.fieldthree = fieldthree;
-		this.fieldfour = fieldfour;
-		this.amount = amount;
-		this.newdate = newdate;
-		this.ldate = ldate;
 		this.transactionDateTime = transactionDateTime;
+		this.transactionAmount = transactionAmount;
+		this.transactionLocation = transactionLocation;
 	}
 
 }
