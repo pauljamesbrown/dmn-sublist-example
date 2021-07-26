@@ -12,8 +12,6 @@ public class BasicDataObject implements java.io.Serializable {
 
 	private java.lang.String fieldtwo;
 
-	private java.lang.String dateField;
-
 	private java.util.Date fieldthree;
 
 	private java.time.LocalDateTime fieldfour;
@@ -23,6 +21,8 @@ public class BasicDataObject implements java.io.Serializable {
 	private java.util.Date newdate;
 
 	private java.util.Date ldate;
+
+	private java.time.LocalDateTime transactionDateTime;
 
 	public BasicDataObject() {
 	}
@@ -41,14 +41,6 @@ public class BasicDataObject implements java.io.Serializable {
 
 	public void setFieldtwo(java.lang.String fieldtwo) {
 		this.fieldtwo = fieldtwo;
-	}
-
-	public java.lang.String getDateField() {
-		return this.dateField;
-	}
-
-	public void setDateField(java.lang.String dateField) {
-		this.dateField = dateField;
 	}
 
 	public java.util.Date getFieldthree() {
@@ -91,19 +83,28 @@ public class BasicDataObject implements java.io.Serializable {
 		this.ldate = ldate;
 	}
 
+	public java.time.LocalDateTime getTransactionDateTime() {
+		return this.transactionDateTime;
+	}
+
+	public void setTransactionDateTime(
+			java.time.LocalDateTime transactionDateTime) {
+		this.transactionDateTime = transactionDateTime;
+	}
+
 	public BasicDataObject(java.lang.String transactionId,
-			java.lang.String fieldtwo, java.lang.String dateField,
-			java.util.Date fieldthree, java.time.LocalDateTime fieldfour,
-			java.lang.Integer amount, java.util.Date newdate,
-			java.util.Date ldate) {
+			java.lang.String fieldtwo, java.util.Date fieldthree,
+			java.time.LocalDateTime fieldfour, java.lang.Integer amount,
+			java.util.Date newdate, java.util.Date ldate,
+			java.time.LocalDateTime transactionDateTime) {
 		this.transactionId = transactionId;
 		this.fieldtwo = fieldtwo;
-		this.dateField = dateField;
 		this.fieldthree = fieldthree;
 		this.fieldfour = fieldfour;
 		this.amount = amount;
 		this.newdate = newdate;
 		this.ldate = ldate;
+		this.transactionDateTime = transactionDateTime;
 	}
 
 }
