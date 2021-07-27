@@ -100,7 +100,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{&quot;transactionLocation&quot;:&quot;GBR&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;150&quot;, &quot;transactionId&quot;:&quot;1&quot;}]</rawValue>
+            <rawValue class="string">[{&quot;transactionLocation&quot;:&quot;\&quot;GBR\&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;150&quot;, &quot;transactionId&quot;:&quot;1&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
