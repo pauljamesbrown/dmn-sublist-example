@@ -3,7 +3,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Index</name>
             <type>OTHER</type>
@@ -15,9 +15,10 @@
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Description</name>
             <type>OTHER</type>
@@ -29,9 +30,10 @@
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Transactions</step>
             </ExpressionElement>
@@ -47,13 +49,14 @@
           <className>java.util.List</className>
           <factAlias>Transactions</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes class="singleton-list">
+          <genericTypes>
             <string>Transactions</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Daily-Limit-Check</step>
             </ExpressionElement>
@@ -71,9 +74,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Single Transaction Limit Check</step>
             </ExpressionElement>
@@ -91,9 +95,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Transaction-Permitted</step>
             </ExpressionElement>
@@ -111,9 +116,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Valid-Country</step>
             </ExpressionElement>
@@ -131,9 +137,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>bannedLocations</step>
             </ExpressionElement>
@@ -151,10 +158,11 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>184.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <Scenario>
         <factMappingValues>
           <FactMappingValue>
@@ -227,6 +235,17 @@
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
     </scesimData>
@@ -235,7 +254,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>1|1</name>
             <type>GIVEN</type>
@@ -248,10 +267,11 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <BackgroundData>
         <factMappingValues>
           <FactMappingValue>
