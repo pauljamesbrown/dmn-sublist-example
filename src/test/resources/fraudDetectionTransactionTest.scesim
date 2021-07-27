@@ -121,7 +121,7 @@
               <name>1627380756973</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;Proceed&quot;</rawValue>
+            <rawValue class="string">&quot;proceed&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -157,7 +157,7 @@
               <name>1627380756973</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;Deny&quot;</rawValue>
+            <rawValue class="string">&quot;Challenge&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -204,7 +204,7 @@
               <name>1627380756973</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;Challenge&quot;</rawValue>
+            <rawValue class="string">&quot;Deny&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
