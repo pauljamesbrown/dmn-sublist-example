@@ -58,19 +58,19 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Daily Limit Check</step>
+              <step>Daily Transaction Transaction Limit</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1627475850177</name>
+            <name>1627475936982</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Daily Limit Check</name>
-            <className>Daily Limit Check</className>
+            <name>Daily Transaction Transaction Limit</name>
+            <className>Daily Transaction Transaction Limit</className>
           </factIdentifier>
-          <className>DailyLimitCheck</className>
-          <factAlias>Daily Limit Check</factAlias>
+          <className>DailyTransactionLimitCheck</className>
+          <factAlias>Daily Transaction Transaction Limit</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>327.5</columnWidth>
@@ -114,13 +114,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Daily Limit Check</name>
-              <className>Daily Limit Check</className>
+              <name>Daily Transaction Transaction Limit</name>
+              <className>Daily Transaction Transaction Limit</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1627475850177</name>
+              <name>1627475936982</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -160,13 +161,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Daily Limit Check</name>
-              <className>Daily Limit Check</className>
+              <name>Daily Transaction Transaction Limit</name>
+              <className>Daily Transaction Transaction Limit</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1627475850177</name>
+              <name>1627475936982</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
