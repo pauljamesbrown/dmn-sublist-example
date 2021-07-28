@@ -96,18 +96,22 @@
           <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Check Last 5 Transactions</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1627483229919</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
+            <name>Check Last 5 Transactions</name>
+            <className>Check Last 5 Transactions</className>
           </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 5</factAlias>
-          <expressionAlias>PROPERTY 5</expressionAlias>
+          <className>LastFiveTransactionsCheck</className>
+          <factAlias>Check Last 5 Transactions</factAlias>
+          <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>163.75000000000003</columnWidth>
         </FactMapping>
@@ -172,13 +176,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>Check Last 5 Transactions</name>
+              <className>Check Last 5 Transactions</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1627483229919</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -240,13 +245,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>Check Last 5 Transactions</name>
+              <className>Check Last 5 Transactions</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1627483229919</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -308,13 +314,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>Check Last 5 Transactions</name>
+              <className>Check Last 5 Transactions</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1627483229919</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
