@@ -62,7 +62,7 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|2</name>
+            <name>1627475850177</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
@@ -72,7 +72,6 @@
           <className>DailyLimitCheck</className>
           <factAlias>Daily Limit Check</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>327.5</columnWidth>
         </FactMapping>
@@ -104,17 +103,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Daily Limit Check</name>
-              <className>Daily Limit Check</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -123,6 +111,16 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Daily Limit Check</name>
+              <className>Daily Limit Check</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475850177</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -147,18 +145,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{&quot;transactionLocation&quot;:&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;90&quot;, &quot;transactionId&quot;:&quot;2&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Daily Limit Check</name>
-              <className>Daily Limit Check</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
+            <rawValue class="string">[{&quot;transactionLocation&quot;:&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;90&quot;, &quot;transactionId&quot;:&quot;2&quot;},{&quot;transactionLocation&quot;:&quot;\&quot;GRR\&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;99&quot;, &quot;transactionId&quot;:&quot;23&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -170,6 +157,16 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Daily Limit Check</name>
+              <className>Daily Limit Check</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475850177</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
