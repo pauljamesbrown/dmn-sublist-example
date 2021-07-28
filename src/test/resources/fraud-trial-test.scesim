@@ -53,7 +53,7 @@
             <string>Transactions</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>327.5</columnWidth>
+          <columnWidth>218.33333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -73,7 +73,27 @@
           <factAlias>Daily Transaction Transaction Limit</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>327.5</columnWidth>
+          <columnWidth>218.33333333333331</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Single Transaction Limit Check</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1627475993634</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Single Transaction Limit Check</name>
+            <className>Single Transaction Limit Check</className>
+          </factIdentifier>
+          <className>SingleTransactionLimitCheck</className>
+          <factAlias>Single Transaction Limit Check</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>218.33333333333331</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -123,6 +143,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Single Transaction Limit Check</name>
+              <className>Single Transaction Limit Check</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475993634</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -166,6 +197,75 @@
             </factIdentifier>
             <expressionIdentifier>
               <name>1627475936982</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Single Transaction Limit Check</name>
+              <className>Single Transaction Limit Check</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475993634</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Transactions</name>
+              <className>Transactions</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;transactionLocation&quot;:&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;99&quot;, &quot;transactionId&quot;:&quot;2&quot;},{&quot;transactionLocation&quot;:&quot;\&quot;GRR\&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;99&quot;, &quot;transactionId&quot;:&quot;23&quot;},{&quot;transactionLocation&quot;:&quot;&quot;, &quot;transactionDateTime&quot;:&quot;&quot;, &quot;transactionAmount&quot;:&quot;20&quot;, &quot;transactionId&quot;:&quot;1&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Daily Transaction Transaction Limit</name>
+              <className>Daily Transaction Transaction Limit</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475936982</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;Exceeded&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Single Transaction Limit Check</name>
+              <className>Single Transaction Limit Check</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627475993634</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
