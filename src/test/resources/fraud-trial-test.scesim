@@ -129,10 +129,9 @@
             <name>Check Last 5 Transactions 2</name>
             <className>Check Last 5 Transactions 2</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Check Last 5 Transactions 2</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>131.0</columnWidth>
         </FactMapping>
@@ -215,6 +214,7 @@
               <name>1627486187138</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -294,6 +294,7 @@
               <name>1627486187138</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -373,6 +374,7 @@
               <name>1627486187138</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -452,6 +454,7 @@
               <name>1627486187138</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">5</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
