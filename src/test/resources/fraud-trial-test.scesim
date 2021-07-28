@@ -53,7 +53,7 @@
             <string>Transactions</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>276.75</columnWidth>
+          <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -73,7 +73,7 @@
           <factAlias>Daily Transaction Transaction Limit</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>276.75</columnWidth>
+          <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -93,7 +93,7 @@
           <factAlias>Single Transaction Limit Check</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>276.75</columnWidth>
+          <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -113,7 +113,7 @@
           <factAlias>Check Last 5 Transactions</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>276.75000000000006</columnWidth>
+          <columnWidth>163.75000000000003</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
