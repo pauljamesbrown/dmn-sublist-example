@@ -53,7 +53,7 @@
             <string>Transactions</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>218.33333333333331</columnWidth>
+          <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -73,7 +73,7 @@
           <factAlias>Daily Transaction Transaction Limit</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>218.33333333333331</columnWidth>
+          <columnWidth>163.75</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -93,7 +93,23 @@
           <factAlias>Single Transaction Limit Check</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>218.33333333333331</columnWidth>
+          <columnWidth>163.75</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1627483229919</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 5</factAlias>
+          <expressionAlias>PROPERTY 5</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>163.75000000000003</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -154,6 +170,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627483229919</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -212,6 +238,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627483229919</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -269,6 +305,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627483229919</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
