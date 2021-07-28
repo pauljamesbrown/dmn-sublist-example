@@ -53,7 +53,7 @@
             <string>Transactions</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>163.75</columnWidth>
+          <columnWidth>131.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -73,7 +73,7 @@
           <factAlias>Daily Transaction Transaction Limit</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>163.75</columnWidth>
+          <columnWidth>131.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -93,7 +93,23 @@
           <factAlias>Single Transaction Limit Check</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>163.75</columnWidth>
+          <columnWidth>133.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1627485863698</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 6</factAlias>
+          <expressionAlias>PROPERTY 6</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>131.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -113,7 +129,7 @@
           <factAlias>Check Last 5 Transactions</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>163.75000000000003</columnWidth>
+          <columnWidth>131.00000000000003</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -185,6 +201,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627485863698</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -253,6 +279,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;NotExceeded&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627485863698</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -323,6 +359,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Exceeded&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627485863698</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -391,6 +437,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">[ { transactionAmount : 99, transactionId : 2 }, { transactionLocation : &quot;GRR&quot;, transactionAmount : 99, transactionId : 23 }, { transactionAmount : 20, transactionId : 1 }, { transactionAmount : 90 }, { transactionAmount : 50 } ]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1627485863698</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
